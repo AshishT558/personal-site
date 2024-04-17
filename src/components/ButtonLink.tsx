@@ -5,7 +5,7 @@ interface Props {
     page: string;
 }
 
-export default function PageLink({text, page}: Props) {
+export default function ButtonLink({text, page}: Props) {
     return (
         <Link 
         href={page}
