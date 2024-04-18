@@ -11,7 +11,7 @@ export default function Home() {
           Software Development • Data Science • Artificial Intelligence • Machine Learning
         </p>
         <div className="space-x-20">
-          <ButtonLink text="About Me" page="/pages/about_me"></ButtonLink>
+          <ButtonLink text="About Me" page="/pages/about"></ButtonLink>
           <ButtonLink text="Experience" page="/pages/experience"></ButtonLink>
           <ButtonLink text="Projects" page="/pages/projects"></ButtonLink>
         </div>
