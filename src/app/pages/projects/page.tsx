@@ -1,7 +1,8 @@
+import ContentPage from "@/components/ContentPage";
+import PlaceholderImage from "@/components/PlaceholderImage";
+
 export default function ProjectsPage() {
     return (
-        <div>
-            <h1>Projects!</h1>
-        </div>
+        <ContentPage title={"Projects"} children={<PlaceholderImage></PlaceholderImage>}></ContentPage>
     );
 }

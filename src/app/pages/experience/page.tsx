@@ -1,7 +1,11 @@
+import ContentPage from "@/components/ContentPage";
+import PlaceholderImage from "@/components/PlaceholderImage";
+
+
+
 export default function ExperiencePage() {
+
     return (
-        <div>
-            <h1>Experience!</h1>
-        </div>
+        <ContentPage title={"Experience"} children={<PlaceholderImage></PlaceholderImage>}></ContentPage>
     );
 }

@@ -16,10 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
-  const navbar = ['Item1', 'Item2', 'Item3']
-
   return (
-    <html lang="en">
+    <html className="scroll-smooth" lang="en">
       <body className={inter.className}>
       {children}
       </body>

@@ -1,12 +1,11 @@
 import NavBar from "@/components/NavBar";
 
-export default function RootLayout({
+export default function ContentPagesLayout({
     children,
   }: Readonly<{
     children: React.ReactNode;
   }>) {
   
-    const navbar = ['Item1', 'Item2', 'Item3']
   
     return (
       <>
