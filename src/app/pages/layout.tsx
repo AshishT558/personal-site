@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 
 export default function ContentPagesLayout({
@@ -9,8 +10,12 @@ export default function ContentPagesLayout({
   
     return (
       <>
-      <NavBar></NavBar>
-      {children}
+        <div className="z-10 sticky top-0">
+          <NavBar></NavBar>
+        </div>
+        <div className="z-0">
+          {children}
+        </div>
       </>
     );
   }

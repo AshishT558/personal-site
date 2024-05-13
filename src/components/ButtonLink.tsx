@@ -1,7 +1,8 @@
 import Link from "next/link";
+import { ReactNode } from "react";
 
 interface Props {
-    text: string;
+    text: ReactNode;
     page: string;
 }
 
