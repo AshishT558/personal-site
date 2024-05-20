@@ -12,14 +12,10 @@ import PlaceholderImage from "@/components/PlaceholderImage";
 
 export default function AboutPage() {
     return (
-    <ContentPage title="About Me" children={
-      <div id="Content" className="flex flex-col items-center">
+    <ContentPage title="About Me">
+      <div id="Content" className="flex flex-col items-center justify-center">
          <h2>Section 1</h2>
          <PlaceholderImage></PlaceholderImage>
-         <h2>Section 2</h2>
-         <PlaceholderImage></PlaceholderImage>
-         <h2>Section 3</h2>
-         <PlaceholderImage></PlaceholderImage>
       </div>
-    }></ContentPage>);
+    </ContentPage>);
   }

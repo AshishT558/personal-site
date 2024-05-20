@@ -4,6 +4,7 @@ import Modal from "react-modal";
 import { useState } from "react";
 import PlaceholderImage from "./PlaceholderImage";
 import "@/app/animations.css"
+import Button from "./button";
 
 interface Props {
     title: string;
@@ -21,8 +22,8 @@ const ExperienceBox = ({title, company, logo, content} :Props) => {
     // }
 
     return (
-        <div onClick={() => setIsOpen(!isOpen)}>
-            <div className="border-2 rounded-lg hover:scale-105">
+        <div onClick={() => setIsOpen(!isOpen)} className="cursor-pointer">
+            <div className="border-2 rounded-lg hover:scale-105 ">
                 <div className="flex flex-row">
                     <div className="">
                         {logo}
@@ -39,21 +40,24 @@ const ExperienceBox = ({title, company, logo, content} :Props) => {
             </div>
             <Modal 
             isOpen={isOpen} 
-            onRequestClose={() => setIsOpen(!isOpen)} 
+            onRequestClose={() => setIsOpen(false)} 
             className="h-screen flex flex-row items-center justify-end" 
             shouldCloseOnEsc={false}
             style={{ overlay: { backgroundColor: 'transparent' } }}
-            shouldCloseOnOverlayClick={false}>
-                <div className="flex flex-col items-center bg-slate-500 h-2/5 w-1/4 rounded-lg mr-20">
-                    <h1 className="text-nowrap">{title} @ {company}</h1>
-                    {content}
-                    <PlaceholderImage></PlaceholderImage>
-                    content
-                    <PlaceholderImage></PlaceholderImage>
+            shouldFocusAfterRender={false}
+            shouldCloseOnOverlayClick={false}
+            ariaHideApp={false}>
+                <div className="flex flex-col items-center bg-slate-500 border-2 border-white-500 lg:max-h-[500px] lg:max-w-[450px] max-h-[400px] rounded-lg lg:mr-[10rem] mr-10 ml-10 px-5 overflow-y-scroll">
+                    <div className="bg-slate-800 m-2 px-2 rounded-lg">
+                        <h1 className="">{title} @ {company}</h1>
+                    </div>
+                    <div className="flex flex-col space-y-5">
+                        {content}
+                    </div>
                     <button 
-                    onClick={() => setIsOpen(!isOpen)}  
-                    className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"  
-                    >Close Modal</button>
+                    onClick={() => setIsOpen(false)}  
+                    className="sticky bottom-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"  
+                    >Close</button>
                 </div>
                 
             </Modal>
