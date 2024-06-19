@@ -19,3 +19,9 @@
     }
   }
   
+.image-container:hover img {
+    transform: translateX(-100%);
+}
+.image-container:hover .overlay {
+    opacity: 1;
+}

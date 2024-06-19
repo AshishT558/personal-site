@@ -47,9 +47,11 @@ const ExperienceBox = ({title, company, logo, content} :Props) => {
             shouldFocusAfterRender={false}
             shouldCloseOnOverlayClick={false}
             ariaHideApp={false}>
-                <div className="flex flex-col items-center bg-slate-500 border-2 border-white-500 lg:max-h-[500px] lg:max-w-[450px] max-h-[400px] rounded-lg lg:mr-[10rem] mr-10 ml-10 px-5 overflow-y-scroll">
-                    <div className="bg-slate-800 m-2 px-2 rounded-lg">
-                        <h1 className="">{title} @ {company}</h1>
+                <div className="flex flex-col items-center bg-slate-500 border-2 border-white-500 lg:max-h-[500px] lg:max-w-[450px] max-h-[400px] rounded-lg lg:mr-[10rem] lg:mb-[10rem] mr-10 ml-10 px-5 overflow-y-scroll">
+                    <div className="bg-slate-800 m-2 px-2 rounded-lg text-center flex flex-col lg:flex-row lg:gap-x-2">
+                        <h1 className="">{title}</h1>
+                        <h2> @ </h2>
+                        <h3>{company}</h3>
                     </div>
                     <div className="flex flex-col space-y-5">
                         {content}
