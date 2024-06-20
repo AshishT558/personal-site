@@ -27,7 +27,7 @@ export default function ProjectsPage() {
                         </ProjectBox>
                     </li>
                     <li className="">
-                        <ProjectBox title={"Your BUJO App"} image={NotebookLogo} Github="https://github.com/CS-3500-OOD/pa05-purplelineupthematterhorn">
+                        <ProjectBox title={"Your BUJO App"} image={NotebookLogo} Github="https://github.com/AshishT558/BUJO-App">
                             Technology: Java, JavaFX, SceneBuilder, JUnit4
                             <br></br> 
                             <br></br>
@@ -53,7 +53,7 @@ export default function ProjectsPage() {
                         </ProjectBox>
                     </li>
                     <li className="">
-                        <ProjectBox title={"Algorithm Based BattleSalvo"} image={Battleship} Github="https://github.com/CS-3500-OOD/pa03-AshishT558">
+                        <ProjectBox title={"Algorithm Based BattleSalvo"} image={Battleship} Github="https://github.com/AshishT558/Algorithm-Based-BattleSalvo">
                             Technology: Java, JUnit, Gradle, JaCoCo
                             <br></br> 
                             <br></br>
