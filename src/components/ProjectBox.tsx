@@ -17,7 +17,7 @@ export default function ProjectBox({title, image, children, Github} : Props) {
         //     {children}
         // </div>
         <div>
-            <div className="image-container w-[20rem] relative overflow-hidden rounded-lg border">
+            <div className="image-container w-[21rem] lg:w-[24rem] relative overflow-hidden rounded-lg border">
                 <Image
                 id="Icon" 
                 className="object-cover transition-transform duration-500 ease-in-out" 
@@ -27,7 +27,7 @@ export default function ProjectBox({title, image, children, Github} : Props) {
                 alt="icon">
                 </Image>
                 <div className="overlay transition-opacity duration-500 ease-in-out absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex flex-col justify-center items-center opacity-0 text-white">
-                    <div className="text-sm text-center">
+                    <div className="w-[18rem] text-sm text-center">
                         {children}
                     </div>
                     <a 
