@@ -17,7 +17,7 @@ export default function ProjectBox({title, image, children, Github} : Props) {
         //     {children}
         // </div>
         <div>
-            <div className="image-container w-[21rem] lg:w-[24rem] relative overflow-hidden rounded-lg border">
+            <div className="image-container w-[21rem] lg:w-[24rem] relative overflow-hidden rounded-lg border-2 border-blue-600">
                 <Image
                 id="Icon" 
                 className="object-cover transition-transform duration-500 ease-in-out" 

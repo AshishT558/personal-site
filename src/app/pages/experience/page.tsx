@@ -22,6 +22,8 @@ import JavaLogo from "/public/java_logo.jpeg"
 import RevLogo from "/public/rev_robotics_logo.jpeg"
 import TSFlowLogo from "/public/tensorflow_logo.webp"
 import GoBuildaLogo from "/public/gobuilda_logo.png"
+import hackbeanport from "/public/hackbeanpot.jpeg"
+import mithack from "/public/mithack.png"
 import EducationBox from "@/components/EducationBox";
 import SkillBox from "@/components/SkillBox";
 
@@ -31,8 +33,7 @@ export default function ExperiencePage() {
         <ContentPage title={"Experience"}>
             <div className="flex flex-col items-center justify-center">
                 <h1 className="text-3xl lg:text-5xl">My Experience</h1>
-                <h1 className="text-2xl lg:text-3xl mt-10">Technical Work</h1>
-                <h2> Click for details &#8595;</h2>
+                <h1 className="text-2xl lg:text-3xl mt-10 lg:mt-20">Technical Work</h1>
                 <div className="flex flex-row mt-10 ">
                     <div id="time_stamps" className="flex flex-col space-y-10 mr-5 mt-4">
                         <h1 className="">2024</h1>
@@ -190,8 +191,17 @@ export default function ExperiencePage() {
                 </div>
 
                 <div className="mt-[10rem] flex flex-col items-center justify-center">
+                    <h1 className="text-2xl lg:text-3xl mb-10">Hackathons</h1>
+                    <div className="flex flex-col gap-y-5">
+                        <Image id="mitHack Icon" className="rounded-full hover:scale-105" src={mithack} width={200} height={200} alt=" icon"></Image>
+                        <div className="border-l-4 border-white-500 h-[10rem] ml-[6rem]"></div>
+                        <Image id="hackbeanpot Icon" className="rounded-full hover:scale-105" src={hackbeanport} width={200} height={200} alt=" icon"></Image>
+                    </div>
+                </div>
+
+                <div className="mt-[10rem] flex flex-col items-center justify-center">
                     <h1 className="text-2xl lg:text-3xl">Education</h1>
-                    <div className="lg:grid lg:grid-cols-3 gap-x-[5rem] space-y-[5rem] lg:space-y-0 mt-10">
+                    <div className="space-y-[5rem] mt-10">
                         <div className="">
                             <EducationBox
                             image={
@@ -204,6 +214,9 @@ export default function ExperiencePage() {
                             With courses such as Object-Oriented Design, Algorithms and Data, and Foundations of Data Science, I have learned software and data science fundamentals."
                             />
                         </div>
+
+                        <div className="border-l-4 border-white-500 h-[15rem] ml-[11rem]"></div>
+
                         <div className="">
                             <div className="">
                                 <EducationBox
@@ -218,6 +231,9 @@ export default function ExperiencePage() {
                                 />
                             </div>
                         </div>
+
+                        <div className="border-l-4 border-white-500 h-[15rem] ml-[11rem]"></div>
+
                         <div className="">
                             <div className="">
                                 <EducationBox

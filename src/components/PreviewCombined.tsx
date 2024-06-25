@@ -18,8 +18,7 @@ export default function PreviewCombined() {
                 <PreviewPage
                 title="Who I Am"
                 description="Hi, my name is Ashish Thomas and I am studying Computer Science with a concentration in Artificial Intelligence at Northeastern University. 
-                My interests include solving intricate problems by utilizing software solutions, working with teams on artificial intelligence and machine learning projects, as well as the intersection between hardware and software in robotics. 
-                On the personal side, I love playing tennis, biking, and meeting new people!"
+                My interests include solving intricate problems by utilizing software solutions, working with teams on artificial intelligence and machine learning projects, as well as the intersection between hardware and software in robotics."
                 reverse={false}
                 content=
                 {<Image id="Profile Photos" className="" src={LinkedAbout} width={700} height={500} alt="profile photo"></Image>}
