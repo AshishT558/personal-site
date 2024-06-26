@@ -20,6 +20,7 @@ html {
   scroll-behavior: smooth!important;
   background-color: black;
   color: white;
+  list-style: none;
 }
 
 /* body {
