@@ -23,7 +23,7 @@ const ExperienceBox = ({title, company, logo, content} :Props) => {
 
     return (
         <div onClick={() => setIsOpen(!isOpen)} className="cursor-pointer">
-            <div className="border-2 rounded-lg hover:scale-105 ">
+            <div className="border-2 rounded-lg hover:scale-105 hover:border-blue-600">
                 <div className="flex flex-row">
                     <div className="">
                         {logo}

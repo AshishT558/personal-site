@@ -26,6 +26,7 @@ import hackbeanport from "/public/hackbeanpot.jpeg"
 import mithack from "/public/mithack.png"
 import EducationBox from "@/components/EducationBox";
 import SkillBox from "@/components/SkillBox";
+import "@/app/animations.css";
 
 export default function ExperiencePage() {
 
@@ -33,7 +34,7 @@ export default function ExperiencePage() {
         <ContentPage title={"Experience"}>
             <div className="flex flex-col items-center justify-center">
                 <h1 className="text-3xl lg:text-5xl">My Experience</h1>
-                <h1 className="text-2xl lg:text-3xl mt-10 lg:mt-20">Technical Work</h1>
+                <h1 className="text-2xl lg:text-3xl mt-10 lg:mt-20">Technical Work<span className="fade-in inline">: <span className="text-2xl lg:text-3xl text-blue-600">Click for Details</span></span></h1>
                 <div className="flex flex-row mt-10 ">
                     <div id="time_stamps" className="flex flex-col space-y-10 mr-5 mt-4">
                         <h1 className="">2024</h1>
@@ -60,7 +61,7 @@ export default function ExperiencePage() {
                                     </div>
                                     <div>
                                         <h1 className="underline underline-offset-8"> Skills </h1>
-                                        <div id="skill logos" className="mt-5 grid lg:grid-cols-5 lg:gap-x-8 gap-y-8">
+                                        <div id="skill logos" className="mt-5 grid grid-cols-2 lg:grid-cols-5 lg:gap-x-8 gap-5">
                                             <SkillBox name={"Python"} image={PythonLogo}></SkillBox>
                                             <SkillBox name={"Tableau"} image={TableauLogo}></SkillBox>
                                             <SkillBox name={"Jupyter"} image={JupyterLogo}></SkillBox>
@@ -109,7 +110,7 @@ export default function ExperiencePage() {
                                     </div>
                                     <div>
                                         <h1 className="underline underline-offset-8"> Skills </h1>
-                                        <div id="skill logos" className="mt-5 grid lg:grid-cols-5 lg:gap-x-8 gap-y-8">
+                                        <div id="skill logos" className="mt-5 grid grid-cols-2 lg:grid-cols-5 lg:gap-x-8 gap-5">
                                             <SkillBox name={"Django"} image={DjangoLogo}></SkillBox>
                                             <SkillBox name={"Python"} image={PythonLogo}></SkillBox>
                                             <SkillBox name={"Postgres"} image={PSSqllogo}></SkillBox>
@@ -157,7 +158,7 @@ export default function ExperiencePage() {
                                     </div>
                                     <div>
                                         <h1 className="underline underline-offset-8"> Skills </h1>
-                                        <div id="skill logos" className="mt-5 grid lg:grid-cols-4 lg:gap-x-8 gap-y-8">
+                                        <div id="skill logos" className="mt-5 grid grid-cols-2 lg:grid-cols-5 lg:gap-x-8 gap-5">
                                             <SkillBox name={"Java"} image={JavaLogo}></SkillBox>
                                             <SkillBox name={"TensorFlow"} image={TSFlowLogo}></SkillBox>
                                             <SkillBox name={"Rev"} image={RevLogo}></SkillBox>

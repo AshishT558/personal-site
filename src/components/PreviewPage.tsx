@@ -45,10 +45,10 @@ export default function PreviewPage({title, description, reverse, content, main,
                     <Link className="" href={top}><span>&#x21d1;</span></Link>
                 </div>
                 <div className="lg:grid lg:grid-cols-2 place-items-center">
-                    <div id="left_box" className="invisible lg:visible">
+                    <div id="left_box" className="hidden lg:list-item">
                         {content}
                     </div>
-                    <div id="right_box" className="lg:mb-0 mb-80 lg:mr-20 mr-10 ml-10 flex flex-col space-y-10">
+                    <div id="right_box" className="lg:mb-0 mb-80 lg:mr-20 mx-10 mt-[9rem] flex flex-col space-y-10">
                         <h1 className="text-5xl">{title}</h1>
                         <div id="description" className="">
                             {description}

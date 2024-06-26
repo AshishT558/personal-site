@@ -65,7 +65,7 @@ export default function ProjectsPage() {
                             Technology: Django, Python, SQL, Bootstrap CSS
                             <br></br> 
                             <br></br>
-                            This was a Web Development project that I started with a team during my time at OasisNEU for improving wait times and queue information at coffee shops around our campus. We used a PostgreSql database and the Django framework to pull in and store data from the Grubhub API, allowing us to monitor wait times and provide statistics such as busy hours and customer counts. 
+                            This was a Web Development project that I started with a team during my time at OasisNEU for improving wait times and queue information at coffee shops around our campus. We used a PostgreSQL database and the Django framework to pull in and store data from the Grubhub API, allowing us to monitor wait times and provide statistics such as busy hours and customer counts. 
                         </ProjectBox>
                     </li>
                 </ul>
