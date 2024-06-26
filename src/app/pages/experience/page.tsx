@@ -158,7 +158,7 @@ export default function ExperiencePage() {
                                     </div>
                                     <div>
                                         <h1 className="underline underline-offset-8"> Skills </h1>
-                                        <div id="skill logos" className="mt-5 grid grid-cols-2 lg:grid-cols-5 lg:gap-x-8 gap-5">
+                                        <div id="skill logos" className="mt-5 grid grid-cols-2 lg:grid-cols-4 lg:gap-x-8 gap-5">
                                             <SkillBox name={"Java"} image={JavaLogo}></SkillBox>
                                             <SkillBox name={"TensorFlow"} image={TSFlowLogo}></SkillBox>
                                             <SkillBox name={"Rev"} image={RevLogo}></SkillBox>
@@ -245,7 +245,7 @@ export default function ExperiencePage() {
                                 type="High School"
                                 years="2018 - 2022"
                                 text="I was in high school for the 2018-2022 school years, and was involved in a variety of extracurricular activities that propelled me into STEM and community service. 
-                                I played Varsity Tennis, led our FTC Robotics Team, and competed in our Science Olympiad across my time here."
+                                I played Varsity Tennis, led our FTC Robotics Team, and competed in Science Olympiad across my time here."
                                 />
                             </div>
                         </div>
