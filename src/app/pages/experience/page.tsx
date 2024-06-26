@@ -202,7 +202,7 @@ export default function ExperiencePage() {
 
                 <div className="mt-[10rem] flex flex-col items-center justify-center">
                     <h1 className="text-2xl lg:text-3xl">Education</h1>
-                    <div className="space-y-[5rem] mt-10">
+                    <div className="space-y-[3rem] mt-10">
                         <div className="">
                             <EducationBox
                             image={
@@ -216,7 +216,7 @@ export default function ExperiencePage() {
                             />
                         </div>
 
-                        <div className="border-l-4 border-white-500 h-[15rem] ml-[11rem]"></div>
+                        <div className="border-l-4 border-white-500 h-[15rem] ml-[10.5rem]"></div>
 
                         <div className="">
                             <div className="">
@@ -233,7 +233,7 @@ export default function ExperiencePage() {
                             </div>
                         </div>
 
-                        <div className="border-l-4 border-white-500 h-[15rem] ml-[11rem]"></div>
+                        <div className="border-l-4 border-white-500 h-[15rem] ml-[10.5rem]"></div>
 
                         <div className="">
                             <div className="">
