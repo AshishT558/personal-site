@@ -48,7 +48,7 @@ export default function PreviewPage({title, description, reverse, content, main,
                     <div id="left_box" className="hidden lg:list-item">
                         {content}
                     </div>
-                    <div id="right_box" className="lg:mb-0 mb-80 lg:mr-20 mx-10 mt-[9rem] flex flex-col space-y-10">
+                    <div id="right_box" className="lg:mr-20 mx-10 flex flex-col space-y-10">
                         <h1 className="text-5xl">{title}</h1>
                         <div id="description" className="">
                             {description}
