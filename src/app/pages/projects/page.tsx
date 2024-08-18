@@ -69,6 +69,9 @@ export default function ProjectsPage() {
                         </ProjectBox>
                     </li>
                 </ul>
+                <div className="mt-12">
+                    <p> Check out more of my projects on <span className="text-blue-600 hover:text-blue-700"> <a href="https://github.com/AshishT558" target="_blank" rel="noopener noreferrer" >Github</a> </span> !</p>
+                </div>
             </div>
         </ContentPage>
     );
