@@ -28,7 +28,7 @@ export default function NavBar() {
                     ))}
                 </ul>
 
-                <div id="dropdown" className="fixed top-0 right-5 lg:hidden relative inline-block">
+                <div id="dropdown" className="fixed top-3 right-5 lg:hidden">
                     <button onClick={toggleDropdown}className="text-3xl">&#8801;</button>
                     {isOpen && (
                         <div className="fixed top-[3.5rem] right-2 bg-blue-600 rounded py-2">

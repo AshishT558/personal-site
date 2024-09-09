@@ -16,6 +16,7 @@ export default function ProjectsPage() {
         <ContentPage title={"Projects"}>
             <div className="flex flex-col items-center justify-center">
                 <h1 className="text-3xl lg:text-5xl">My Projects</h1>
+                <h2 className="pt-5"> Check out what I'm currently working on right <span className="text-blue-600 hover:text-blue-700"> <a href="https://github.com/AshishT558/Kicks-App" target="_blank" rel="noopener noreferrer" >here</a> </span>!</h2>
                 <ul className="pt-[5rem] flex flex-col gap-y-[5rem] lg:grid lg:grid-cols-2 lg:gap-5">
                     <li className="">
                         <ProjectBox title={"Spotify Playlist Generator"} image={SpotifyLogo} Github="https://github.com/AshishT558/Spotify_Playlist_Analysis">
