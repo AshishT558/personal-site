@@ -7,6 +7,7 @@ import GithubIcon from "/public/github-icon.webp"
 import MBTA from "/public/MBTALogo.webp"
 import LinkedInIcon from "/public/linkedin-icon.png"
 import Instagram from "/public/instagram.webp"
+import Scout from "/public/scout_logo.jpeg"
 import Boston from "/public/boston.jpeg"
 import Boston2 from "/public/boston2.jpeg"
 import LinkOut from "/public/newtab.jpeg"
@@ -33,8 +34,9 @@ export default function AboutPage() {
                     <h1 className="text-2xl lg:text-3xl mt-[5rem] "> Where I Am </h1>
                     <p className="mt-[2rem] w-[23rem]">
                       I just finished my co-op at the Massachusetts Bay Transportation Authority <span><a target="_blank" rel="noopener noreferrer" href="https://www.mbta.com/"><Image className="rounded inline hover:scale-105" src={MBTA} alt={"mbta pic"} width={20} height={10}></Image></a> </span>
-                         and am returning to classes for the Fall 2024 semester. I am excited to take on a new position as a Community Group Leader at Northeastern's South Asian Intervarsity! 
-                         <span> <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/neusaiv/"><Image className="rounded inline hover:scale-105" src={Instagram} alt={"instagram pic"} width={20} height={10}></Image></a></span> . As I start this academic year, I am looking for open internship roles
+                         and am returning to classes for the Fall 2024 semester. I am excited to take on 2 new positions as a Community Group Leader at Northeastern's South Asian Intervarsity 
+                         <span> <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/neusaiv/"><Image className="rounded inline hover:scale-105" src={Instagram} alt={"instagram pic"} width={20} height={10}></Image> </a></span>  
+                         and as a Developer on the Studio team at Scout <span> <a target="_blank" rel="noopener noreferrer" href="https://scout.camd.northeastern.edu/"><Image className="rounded inline hover:scale-105" src={Scout} alt={"scout pic"} width={20} height={10}></Image></a></span> ! As I start this academic year, I am looking for open internship roles
                          in Software Engineering, Data Science, or Machine Learning for the 2025 Spring and Summer.  
                     </p> 
                     <h1 className="text-2xl lg:text-3xl mt-[5rem]"> Contact Me </h1>
