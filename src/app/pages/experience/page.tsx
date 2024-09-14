@@ -33,8 +33,8 @@ export default function ExperiencePage() {
     return (
         <ContentPage title={"Experience"}>
             <div className="flex flex-col items-center justify-center">
-                <h1 className="text-3xl lg:text-5xl">My Experience</h1>
-                <h1 className="text-2xl lg:text-3xl mt-10 lg:mt-20">Technical Work<span className="fade-in inline">: <span className="text-2xl lg:text-3xl text-blue-600">Click for Details</span></span></h1>
+                <h1 className="text-3xl lg:text-5xl lg:pt-10">My Experience</h1>
+                <h1 className="text-2xl lg:text-3xl mt-10 lg:mt-20">Technical Work<span className="fade-in inline">: <span className="text-2xl lg:text-3xl text-blue-400">Click for Details</span></span></h1>
                 <div className="flex flex-row mt-10 ">
                     <div id="time_stamps" className="flex flex-col space-y-10 mr-5 mt-4">
                         <h1 className="">2024</h1>

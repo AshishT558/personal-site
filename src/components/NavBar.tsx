@@ -16,7 +16,7 @@ export default function NavBar() {
     }
 
     return (
-        <div className="flex justify-center pt-5 bg-blue-600 fade-in z-40 sticky top-0">
+        <div className="flex justify-center pt-5 bg-blue-500 fade-in z-40 sticky top-0">
             <ul className="invisible lg:visible pb-5 flex flex-row gap-10">
                     {NavLinks.map((link, index) => (
                         <Link 
@@ -31,7 +31,7 @@ export default function NavBar() {
                 <div id="dropdown" className="fixed top-3 right-5 lg:hidden">
                     <button onClick={toggleDropdown}className="text-3xl">&#8801;</button>
                     {isOpen && (
-                        <div className="fixed top-[3.5rem] right-2 bg-blue-600 rounded py-2">
+                        <div className="fixed top-[3.5rem] right-2 bg-blue-500 rounded py-2">
                             <ul className="flex flex-col gap-y-2 items-center">
                                 
                                 <li className="px-2">

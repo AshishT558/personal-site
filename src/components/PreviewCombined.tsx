@@ -17,7 +17,7 @@ export default function PreviewCombined() {
             <div id="about_preview" className="h-screen">
                 <PreviewPage
                 title="Who I Am"
-                description="Hi, my name is Ashish Thomas and I am studying Computer Science with a concentration in Artificial Intelligence at Northeastern University. 
+                description="Hi! My name is Ashish Thomas and I am studying Computer Science with a concentration in Artificial Intelligence at Northeastern University. 
                 My interests include solving intricate problems by utilizing software solutions, working with teams on artificial intelligence and machine learning projects, as well as the intersection between hardware and software in robotics."
                 reverse={false}
                 content=

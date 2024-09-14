@@ -1,27 +1,24 @@
 "use client";
 import { TypeAnimation } from 'react-type-animation';
 
-interface Props {
-  text: string
-}
 
-export default function Typewriter({text} : Props) {
+export default function Typewriter() {
   return (
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'Software Development',
+        ' Software Developer',
         1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'Data Science',
+        ' Data Scientist',
         1000,
-        'Artificial Intelligence',
+        ' AI Engineer',
         1000,
-        'Machine Learning',
+        ' Designer',
         1000
       ]}
       wrapper="span"
       speed={40}
-      style={{ fontSize: '2em', display: 'inline-block', color: "#2563eb"}}
+      style={{ fontSize: '1em', display: 'inline-block', color: "#517cdb"}}
       repeat={Infinity}></TypeAnimation>
   )
 }

@@ -23,7 +23,7 @@ export default function AboutPage() {
             <div className="flex flex-col justify-center items-center">
             <Image className="lg:hidden border rounded-full" src={LinkedIn} alt={"bench pic"} width={150} height={200}></Image>
 
-                  <h1 className="mt-10 text-3xl lg:text-5xl mb-10">About Me</h1>
+                  <h1 className="mt-10 text-3xl lg:text-5xl lg:pt-10 mb-10">About Me</h1>
                   
                   <p className="w-[23rem] text-center">Hi! I'm Ashish, and I'm a student at Northeastern University in Boston, Massachussetts. 
                     I am studying Computer Science with a concentration in Artificial Intelligence. I'm very interested in technology and understanding the intersection between
