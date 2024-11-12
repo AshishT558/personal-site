@@ -4,9 +4,15 @@ import ExperienceBox from "@/components/ExperienceBox";
 import MBTALogo from "/public/MBTALogo.webp"
 import OasisLogo from "/public/oasis_logo.png"
 import JaybotsLogo from "/public/jaybots_logo.webp"
+import ScoutLogo from "/public/neuscout_logo.jpeg"
 import Image from "next/image";
 import ButtonLink from "@/components/ButtonLink";
 import NEULogo from "/public/alt_neu_logo.png"
+import AgileLogo from "/public/agile_logo.webp"
+import ShopifyLogo from "/public/shopify_logo.webp"
+import FigmaIcon from "/public/figma_icon.png"
+import LiguidLogo from "/public/liquid_logo.png"
+import TJXLogo from "/public/TJX-Logo.png"
 import JayLogo from "/public/jay_logo.jpeg"
 import DCCLogo from "/public/dcc_logo.jpeg"
 import PythonLogo from "/public/python_logo.png"
@@ -37,12 +43,80 @@ export default function ExperiencePage() {
                 <h1 className="text-2xl lg:text-3xl mt-10 lg:mt-20">Technical Work<span className="fade-in inline">: <span className="text-2xl lg:text-3xl text-blue-400">Click for Details</span></span></h1>
                 <div className="flex flex-row mt-10 ">
                     <div id="time_stamps" className="flex flex-col space-y-10 mr-5 mt-4">
-                        <h1 className="">2024</h1>
-                        <h1 className="pt-2">2023</h1>
-                        <h1 className="pt-2">2022</h1>
+                        <h1 className="pt-5">2025</h1>
+                        <h1 className="pt-12">2024</h1>
+                        <h1 className="pt-[2rem]">2023</h1>
+                        <h1 className="pt-2.5">2022</h1>
                     </div>
                     <div id="vertical_line" className="border-l-4 border-white-500">
                         <div id="experience_boxes" className="ml-5 flex flex-col space-y-5">
+
+                            <a>
+                            <ExperienceBox 
+                            title="Data Science Co-op" 
+                            company="TJX" 
+                            logo={<Image id="TJX Photo" className="rounded-l-[5px] border-r-[1.5px] border-white-500" src={TJXLogo} width={50} height={50} alt="tjx photo"></Image>}
+                            content={
+                                <div className="flex flex-col items-center space-y-10 text-center">
+                                    <h1> Januray 2025 - May 2025</h1>
+                                    <div className="">
+                                        <h1 className="underline underline-offset-8"> Abstract </h1>
+                                        <p className="mt-5">
+                                        Incoming Data Science and Machine Learning Co-op on a team at <span className="text-red-500 hover:text-red-600"><a href="https://www.tjx.com/" target="_blank" rel="noopener noreferrer">The TJX Companies, Inc.</a></span> 
+                                        </p>
+                                    </div>
+                                     {/* Fill in post/during co-op */}
+                                    <div className=""></div>
+                                    
+
+                                </div>
+                            }/>
+                            </a>
+
+                            <a>
+                            <ExperienceBox 
+                            title="Software Developer" 
+                            company="Scout" 
+                            logo={<Image id="Scout Photo" className="rounded-l-[5px] border-r-[1.5px] border-white-500" src={ScoutLogo} width={50} height={50} alt="scout photo"></Image>}
+                            content={
+                                <div className="flex flex-col items-center space-y-10 text-center">
+                                    <h1> August 2024 - December 2024</h1>
+                                    <div className="">
+                                        <h1 className="underline underline-offset-8"> Abstract </h1>
+                                        <p className="mt-5">
+                                        As a Developer at <span className="text-purple-600 hover:text-purple-500"><a href="https://scout.camd.northeastern.edu/" target="_blank" rel="noopener noreferrer">Scout</a></span>, I'm working with a team of designers and developer to implement features and improve the customer experience for our client, <span className="text-green-500 hover:text-green-600"><a href="https://rootedliving.org/" target="_blank" rel="noopener noreferrer">Rooted Living</a></span>.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <h1 className="underline underline-offset-8"> Skills </h1>
+                                        <div id="skill logos" className="mt-5 grid grid-cols-2 lg:grid-cols-5 lg:gap-x-8 gap-5">
+                                            <SkillBox name={"Liquid"} image={LiguidLogo}></SkillBox>
+                                            <SkillBox name={"Figma"} image={FigmaIcon}></SkillBox>
+                                            <SkillBox name={"Agile"} image={AgileLogo}></SkillBox>
+                                            <SkillBox name={"CSS"} image={CSSLogo}></SkillBox>
+                                            <SkillBox name={"Shopify"} image={ShopifyLogo}></SkillBox>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h1 className="underline underline-offset-8"> Responsibilities </h1>
+                                        <div className="mt-5 text-left flex flex-col gap-y-5 ml-10">
+                                            <p>
+                                                • Converting Figma wireframes to an engaging UI/UX through the Shopify platform with HTML/CSS/JavaScript.
+                                            </p>
+                                            <p>
+                                                • Fixing the client’s website performance and interactivity with a ticket system, weekly sprints, and stand-ups. 
+                                            </p>
+                                            <p>
+                                            </p>
+                                        </div> 
+                                    </div>
+                                    
+
+                                </div>
+                            }/>
+                            </a>
 
                             <a>
                             <ExperienceBox 
