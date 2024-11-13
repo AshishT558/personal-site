@@ -38,7 +38,7 @@ export default function AboutPage() {
                       <br></br><br></br>I am also settling into 2 new exciting positions as a Community Group Leader at Northeastern's South Asian Intervarsity 
                          <span> <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/neusaiv/"><Image className="rounded inline hover:scale-105" src={Instagram} alt={"instagram pic"} width={20} height={10}></Image> </a></span>  
                          and as a Developer on the Studio team at Scout <span> <a target="_blank" rel="noopener noreferrer" href="https://scout.camd.northeastern.edu/"><Image className="rounded inline hover:scale-105" src={Scout} alt={"scout pic"} width={20} height={10}></Image></a></span>.
-                         <br></br><br></br>I've just recently accepted a Spring Co-op at The TJX Companies, Inc. <span><a target="_blank" rel="noopener noreferrer" href="https://www.mbta.com/"><Image className="rounded inline hover:scale-105" src={TJXLogo} alt={"tjx pic"} width={20} height={10}></Image></a> </span> as a Data Scientist!
+                         <br></br><br></br>I've just recently accepted a Spring Co-op at The TJX Companies, Inc. <span><a target="_blank" rel="noopener noreferrer" href="https://www.tjx.com/"><Image className="rounded inline hover:scale-105" src={TJXLogo} alt={"tjx pic"} width={20} height={10}></Image></a> </span> as a Data Scientist!
                          As I continue this academic year, I am still looking for open internship roles in Software Engineering, Data Science, or Machine Learning for the 2025 Summer. 
                     </p> 
                     <h1 className="text-2xl lg:text-3xl mt-[5rem]"> Contact Me </h1>
