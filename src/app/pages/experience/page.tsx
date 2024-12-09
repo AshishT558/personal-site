@@ -62,7 +62,7 @@ export default function ExperiencePage() {
                                     <div className="">
                                         <h1 className="underline underline-offset-8"> Abstract </h1>
                                         <p className="mt-5">
-                                        Incoming Data Science and Machine Learning Co-op on a team at <span className="text-red-500 hover:text-red-600"><a href="https://www.tjx.com/" target="_blank" rel="noopener noreferrer">The TJX Companies, Inc.</a></span> 
+                                        Incoming Data Science and Machine Learning Co-op on a team at <span className="text-red-500 hover:text-red-600"><a href="https://www.tjx.com/" target="_blank" rel="noopener noreferrer">The TJX Companies, Inc. &#8599;</a></span> 
                                         </p>
                                     </div>
                                      {/* Fill in post/during co-op */}
@@ -84,7 +84,7 @@ export default function ExperiencePage() {
                                     <div className="">
                                         <h1 className="underline underline-offset-8"> Abstract </h1>
                                         <p className="mt-5">
-                                        As a Developer at <span className="text-purple-600 hover:text-purple-500"><a href="https://scout.camd.northeastern.edu/" target="_blank" rel="noopener noreferrer">Scout</a></span>, I'm working with a team of designers and developer to implement features and improve the customer experience for our client, <span className="text-green-500 hover:text-green-600"><a href="https://rootedliving.org/" target="_blank" rel="noopener noreferrer">Rooted Living</a></span>.
+                                        As a Developer at <span className="text-purple-600 hover:text-purple-500"><a href="https://scout.camd.northeastern.edu/" target="_blank" rel="noopener noreferrer">Scout &#8599;</a></span>, I'm working with a team of designers and developer to implement features and improve the customer experience for our client, <span className="text-green-500 hover:text-green-600"><a href="https://rootedliving.org/" target="_blank" rel="noopener noreferrer">Rooted Living &#8599;</a></span>.
                                         </p>
                                     </div>
                                     <div>
