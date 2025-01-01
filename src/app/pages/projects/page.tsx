@@ -1,14 +1,17 @@
 import ContentPage from "@/components/ContentPage";
 import PlaceholderImage from "@/components/PlaceholderImage";
 import ProjectBox from "@/components/ProjectBox";
+import ShoeIcon from "/public/shoe-icon.jpg";
 import SpotifyLogo from "/public/spotify.jpeg"
 import NotebookLogo from "/public/notebook_logo.jpeg"
 import MedBottle from "/public/MedBottle.jpeg"
 import Battleship from "/public/battleship_icon.jpeg"
 import Shell from "/public/shell_logo.png"
+import timeline from "/public/ai-timeline.jpg"
 import Coffee from "/public/coffee_cup.jpeg"
 import GithubIcon from "/public/github-icon.webp"
 import Image from "next/image";
+import ButtonLink from "@/components/ButtonLink";
 import "@/app/animations.css";
 
 export default function ProjectsPage() {
@@ -16,8 +19,24 @@ export default function ProjectsPage() {
         <ContentPage title={"Projects"}>
             <div className="flex flex-col items-center justify-center">
                 <h1 className="text-3xl lg:text-5xl lg:pt-10">My Projects</h1>
-                <h2 className="pt-5 w-[20rem] lg:w-[25rem] "> Check out what I'm currently working on right <span className="text-blue-600 hover:text-blue-700"> <a href="https://github.com/AshishT558/Kicks-App" target="_blank" rel="noopener noreferrer" >here</a> </span>!</h2>
                 <ul className="pt-[5rem] flex flex-col gap-y-[5rem] lg:grid lg:grid-cols-2 lg:gap-5">
+                    <li className="">
+                        <ProjectBox title={"Kicks"} image={ShoeIcon} Github="https://github.com/AshishT558/Kicks-App">
+                            Technology: Python, Flask, JavaScript, JSON, Express, MongoDB, React, AWS, HuggingFace, LLMs
+                            <br></br> 
+                            <br></br>
+                            This was a Full-Stack project that I built to provide users with shoe recommendations. I built a backend with Express to prompt a Llama 3.1 Model, using Hugging Face's inference API.
+                            I also added a Python-Flask API microservice hosted on AWS EC2 that allows users to retrieve real-time prices for the shoes they are recommended. 
+                            <br></br>
+                            <br></br>
+                            <a  className="hover:scale-105 text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-orange-600 dark:hover:bg-orange-700 focus:outline-none dark:focus:ring-orange-800"
+                            href="https://www.justkicks.online/" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                                Check out the website!
+                            </a>
+                        </ProjectBox>
+                    </li>
                     <li className="">
                         <ProjectBox title={"Spotify Playlist Generator"} image={SpotifyLogo} Github="https://github.com/AshishT558/Spotify_Playlist_Analysis">
                             Technology: Python, Pandas, JSON, Jupyter Notebooks, Spotify Web API
@@ -25,6 +44,22 @@ export default function ProjectsPage() {
                             <br></br>
                             This was a Machine Learning project with a goal of predicting the Spotify playlist a given song would belong to based on the song's audio features. 
                             I extracted audio features for 600,000 songs across 10,000 playlists from Spotify's Web API, visualized and tested feature correlations, and trained and tuned Random Forest, SVM, and K-NN classification models.
+                        </ProjectBox>
+                    </li>
+                    <li className="">
+                        <ProjectBox title={"AI & Deviance"} image={timeline} Github="https://github.com/AshishT558/AI-timeline">
+                            Technology: React, Tailwind
+                            <br></br> 
+                            <br></br>
+                            This was a Web Development project focused on technology and human values. It serves to provide readers with a history of AI as well as a look into the normalization of deviance within the field.  
+                            <br></br>
+                            <br></br>
+                            <a  className="hover:scale-105 text-white bg-green-500 hover:bg-green-600 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800"
+                            href="https://ai-in-time.vercel.app/" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                                Check out the website!
+                            </a>
                         </ProjectBox>
                     </li>
                     <li className="">

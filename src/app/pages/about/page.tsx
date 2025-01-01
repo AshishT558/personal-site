@@ -34,11 +34,11 @@ export default function AboutPage() {
 
                     <h1 className="text-2xl lg:text-3xl mt-[5rem] "> Where I Am </h1>
                     <p className="mt-[2rem] w-[23rem]">
-                      I completed my co-op the MBTA <span><a target="_blank" rel="noopener noreferrer" href="https://www.mbta.com/"><Image className="rounded inline hover:scale-105" src={MBTA} alt={"mbta pic"} width={20} height={10}></Image></a> </span> and am currently taking courses for the Fall 2024 semester such as Graduate Foundations of AI, Machine Learning and Data Mining, and Theory of Computation. 
-                      <br></br><br></br>I am also settling into 2 new exciting positions as a Community Group Leader at Northeastern's South Asian Intervarsity 
+                      I previously completed my co-op at the MBTA <span><a target="_blank" rel="noopener noreferrer" href="https://www.mbta.com/"><Image className="rounded inline hover:scale-105" src={MBTA} alt={"mbta pic"} width={20} height={10}></Image></a> </span> and have now started my new co-op at The TJX Companies, Inc. <span><a target="_blank" rel="noopener noreferrer" href="https://www.tjx.com/"><Image className="rounded inline hover:scale-105" src={TJXLogo} alt={"tjx pic"} width={20} height={10}></Image></a> </span> as a Data Scientist! I'll also be taking a course through the Spring semester: Graduate Unsupervised Learning.
+                      <br></br><br></br>I am settling into 2 new exciting positions as a Community Group Leader at Northeastern's South Asian Intervarsity 
                          <span> <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/neusaiv/"><Image className="rounded inline hover:scale-105" src={Instagram} alt={"instagram pic"} width={20} height={10}></Image> </a></span>  
-                         and as a Developer on the Studio team at Scout <span> <a target="_blank" rel="noopener noreferrer" href="https://scout.camd.northeastern.edu/"><Image className="rounded inline hover:scale-105" src={Scout} alt={"scout pic"} width={20} height={10}></Image></a></span>.
-                         <br></br><br></br>I've just recently accepted a Spring Co-op at The TJX Companies, Inc. <span><a target="_blank" rel="noopener noreferrer" href="https://www.tjx.com/"><Image className="rounded inline hover:scale-105" src={TJXLogo} alt={"tjx pic"} width={20} height={10}></Image></a> </span> as a Data Scientist!
+                         and as a Senior Developer on the Studio team at Scout <span> <a target="_blank" rel="noopener noreferrer" href="https://scout.camd.northeastern.edu/"><Image className="rounded inline hover:scale-105" src={Scout} alt={"scout pic"} width={20} height={10}></Image></a></span>.
+                        <br></br> <br></br>
                          As I continue this academic year, I am still looking for open internship roles in Software Engineering, Data Science, or Machine Learning for the 2025 Summer. 
                     </p> 
                     <h1 className="text-2xl lg:text-3xl mt-[5rem]"> Contact Me </h1>
