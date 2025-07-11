@@ -32,6 +32,11 @@ import hackbeanport from "/public/hackbeanpot.jpeg"
 import mithack from "/public/mithack.png"
 import EducationBox from "@/components/EducationBox";
 import SkillBox from "@/components/SkillBox";
+import AtlassianLogo from "/public/atlassian-logo.webp"
+import MongoLogo from "/public/mongo-logo.png"
+import TypeScriptLogo from "/public/typescript-logo.png"
+import ReactLogo from "/public/react-logo.webp"
+import CSharpLogo from "/public/csharp-logo.webp"
 import "@/app/animations.css";
 
 export default function ExperiencePage() {
@@ -42,14 +47,65 @@ export default function ExperiencePage() {
                 <h1 className="text-3xl lg:text-5xl lg:pt-10">My Experience</h1>
                 <h1 className="text-2xl lg:text-3xl mt-10 lg:mt-20">Technical Work<span className="fade-in inline">: <span className="text-2xl lg:text-3xl text-blue-400">Click for Details</span></span></h1>
                 <div className="flex flex-row mt-10 ">
-                    <div id="time_stamps" className="flex flex-col space-y-10 mr-5 mt-4">
+                    <div id="time_stamps" className="flex flex-col space-y-10 mr-5 mt-[5rem]">
                         <h1 className="pt-5">2025</h1>
-                        <h1 className="pt-12">2024</h1>
-                        <h1 className="pt-[2rem]">2023</h1>
-                        <h1 className="pt-2.5">2022</h1>
+                        <h1 className="pt-[5rem]">2024</h1>
+                        <h1 className="">2023</h1>
+                        <h1 className="pb-2">2022</h1>
                     </div>
                     <div id="vertical_line" className="border-l-4 border-white-500">
                         <div id="experience_boxes" className="ml-5 flex flex-col space-y-5">
+
+                            <a>
+                            <ExperienceBox 
+                            title="Software Engineer Intern" 
+                            company="Atlassian" 
+                            logo={<Image id="Atlassian Photo" className="rounded-l-[5px] border-r-[1.5px] border-white-500" src={AtlassianLogo} width={50} height={50} alt="tjx photo"></Image>}
+                            content={
+                                <div className="flex flex-col items-center space-y-10 text-center">
+                                    <h1> June 2025 - September 2025</h1>
+                                    <div className="">
+                                        <h1 className="underline underline-offset-8"> Abstract </h1>
+                                        <p className="mt-5">
+                                            Current SWE Intern at Atlassian working on full-stack updates to the Trello Billing Platform.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <h1 className="underline underline-offset-8"> Skills </h1>
+                                        <div id="skill logos" className="mt-5 grid grid-cols-2 lg:grid-cols-5 lg:gap-x-8 gap-5">
+                                            <SkillBox name={"Typescript"} image={TypeScriptLogo}></SkillBox>
+                                            <SkillBox name={"C#"} image={CSharpLogo}></SkillBox>
+                                            <SkillBox name={"Mongo"} image={MongoLogo}></SkillBox>
+                                            <SkillBox name={"React"} image={ReactLogo}></SkillBox>
+                                            <SkillBox name={"SQL"} image={SQLLogo}></SkillBox>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h1 className="underline underline-offset-8"> Responsibilities </h1>
+                                        <div className="mt-5 text-left flex flex-col gap-y-5 ml-10">
+                                            <p>
+                                                • Built invoice retrieval endpoints in C# calling MS SQL Server on AWS RDS for enterprise billing support.
+                                            </p>
+                                            <p>
+                                                • Enhanced an internal subscription management tool in TypeScript, reducing on-call incident resolution time.
+                                            </p>
+                                            <p>
+                                            • Ensured backwards compatibility for updates across GraphQL and REST API architecutres
+
+                                            </p>
+                                            <p>
+                                            • Integrated third-party services like Xero and Salesforce into backend systems for enterprise subscription tracking
+
+                                            </p>
+                                        </div> 
+                                        </div>
+                                    
+
+                                </div>
+                            }/>
+                            </a>                        
 
                             <a>
                             <ExperienceBox 
@@ -62,11 +118,32 @@ export default function ExperiencePage() {
                                     <div className="">
                                         <h1 className="underline underline-offset-8"> Abstract </h1>
                                         <p className="mt-5">
-                                        Incoming Data Science and Machine Learning Co-op on a team at <span className="text-red-500 hover:text-red-600"><a href="https://www.tjx.com/" target="_blank" rel="noopener noreferrer">The TJX Companies, Inc. &#8599;</a></span> 
+                                        As a Data Science Co-op at <span className="text-red-500 hover:text-red-600"><a href="https://www.tjx.com/" target="_blank" rel="noopener noreferrer">The TJX Companies, Inc. &#8599;</a></span> I worked on a mix of ad-hoc requests and machine learning/statistics projects. 
                                         </p>
                                     </div>
-                                     {/* Fill in post/during co-op */}
-                                    <div className=""></div>
+                                    <div>
+                                        <h1 className="underline underline-offset-8"> Skills </h1>
+                                        <div id="skill logos" className="mt-5 grid grid-cols-2 lg:grid-cols-4 lg:gap-x-8 gap-5">
+                                            <SkillBox name={"Python"} image={PythonLogo}></SkillBox>
+                                            <SkillBox name={"Jupyter"} image={JupyterLogo}></SkillBox>
+                                            <SkillBox name={"Excel"} image={ExcelLogo}></SkillBox>
+                                            <SkillBox name={"SQL"} image={SQLLogo}></SkillBox>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                    <h1 className="underline underline-offset-8"> Responsibilities </h1>
+                                    <div className="mt-5 text-left flex flex-col gap-y-5 ml-10">
+                                            <p>
+                                                • Worked on ad-hoc data analysis projects for Marketing, Finance, and Real Estate teams with Python and Pandas.
+                                            </p>
+                                            <p>
+                                                • Contributed to work on Sierra store-profitability machine learning model using Elastic Net Regression 
+                                            </p>
+                                            <p>
+                                            • Built market expansion simulation covering 600+ potential stores, shared to Finance and Real Estate teams.
+                                            </p>
+                                        </div> 
                                     
 
                                 </div>
@@ -84,7 +161,7 @@ export default function ExperiencePage() {
                                     <div className="">
                                         <h1 className="underline underline-offset-8"> Abstract </h1>
                                         <p className="mt-5">
-                                        As a Developer at <span className="text-purple-600 hover:text-purple-500"><a href="https://scout.camd.northeastern.edu/" target="_blank" rel="noopener noreferrer">Scout &#8599;</a></span>, I'm working with a team of designers and developer to implement features and improve the customer experience for our client, <span className="text-green-500 hover:text-green-600"><a href="https://rootedliving.org/" target="_blank" rel="noopener noreferrer">Rooted Living &#8599;</a></span>.
+                                        As a Developer at <span className="text-purple-600 hover:text-purple-500"><a href="https://scout.camd.northeastern.edu/" target="_blank" rel="noopener noreferrer">Scout &#8599;</a></span>, I worked with a team of designers and developer to implement features and improve the customer experience for our client, <span className="text-green-500 hover:text-green-600"><a href="https://rootedliving.org/" target="_blank" rel="noopener noreferrer">Rooted Living &#8599;</a></span>.
                                         </p>
                                     </div>
                                     <div>

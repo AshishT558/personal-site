@@ -13,6 +13,7 @@ import Boston2 from "/public/boston2.jpeg"
 import LinkOut from "/public/newtab.jpeg"
 import ContentPage from "@/components/ContentPage";
 import TJXLogo from "/public/TJX-Logo.png"
+import AtlassianLogo from "/public/atlassian-logo.webp"
 
 export default function AboutPage() {
     return (
@@ -33,13 +34,12 @@ export default function AboutPage() {
                     
 
                     <h1 className="text-2xl lg:text-3xl mt-[5rem] "> Where I Am </h1>
-                    <p className="mt-[2rem] w-[23rem]">
-                      I previously completed my co-op at the MBTA <span><a target="_blank" rel="noopener noreferrer" href="https://www.mbta.com/"><Image className="rounded inline hover:scale-105" src={MBTA} alt={"mbta pic"} width={20} height={10}></Image></a> </span> and have now started my new co-op at The TJX Companies, Inc. <span><a target="_blank" rel="noopener noreferrer" href="https://www.tjx.com/"><Image className="rounded inline hover:scale-105" src={TJXLogo} alt={"tjx pic"} width={20} height={10}></Image></a> </span> as a Data Scientist! I'll also be taking a course through the Spring semester: Graduate Unsupervised Learning.
-                      <br></br><br></br>I am settling into 2 new exciting positions as a Community Group Leader at Northeastern's South Asian Intervarsity 
-                         <span> <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/neusaiv/"><Image className="rounded inline hover:scale-105" src={Instagram} alt={"instagram pic"} width={20} height={10}></Image> </a></span>  
-                         and as a Senior Developer on the Studio team at Scout <span> <a target="_blank" rel="noopener noreferrer" href="https://scout.camd.northeastern.edu/"><Image className="rounded inline hover:scale-105" src={Scout} alt={"scout pic"} width={20} height={10}></Image></a></span>.
+                    <p className="mt-[2rem] w-[26rem]">
+                      I previously completed my co-ops at the MBTA <span><a target="_blank" rel="noopener noreferrer" href="https://www.mbta.com/"><Image className="rounded inline hover:scale-105" src={MBTA} alt={"mbta pic"} width={20} height={10}></Image></a> </span> and The TJX Companies, Inc. <span><a target="_blank" rel="noopener noreferrer" href="https://www.tjx.com/"><Image className="rounded inline hover:scale-105" src={TJXLogo} alt={"tjx pic"} width={20} height={10}></Image></a> </span>, and I'm now working as a Software Engineer Intern at Atlassian <span><a target="_blank" rel="noopener noreferrer" href="https://www.atlassian.com/"><Image className="rounded inline hover:scale-105" src={AtlassianLogo} alt={"atlassian pic"} width={20} height={10}></Image></a> </span>!
+                      <br></br><br></br>I am also returning as a Community Group Leader at Northeastern's South Asian Intervarsity 
+                         <span> <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/neusaiv/"><Image className="rounded inline hover:scale-105" src={Instagram} alt={"instagram pic"} width={20} height={10}></Image> </a></span>, and am additionally continuing with the PlusOne Masters in CS Program at Northeastern, aiming to graduate in December 2026.
                         <br></br> <br></br>
-                         As I continue this academic year, I am still looking for open internship roles in Software Engineering, Data Science, or Machine Learning for the 2025 Summer. 
+                         As I continue this academic year, I am looking for open internship or full-time roles in Software Engineering, Data Science, or Machine Learning for 2026. 
                     </p> 
                     <h1 className="text-2xl lg:text-3xl mt-[5rem]"> Contact Me </h1>
                     <p className="mt-[2rem] text-left">
