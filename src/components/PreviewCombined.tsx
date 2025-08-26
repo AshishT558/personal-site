@@ -4,8 +4,8 @@ import MBTALogo from "/public/MBTALogo.webp"
 import JaybotsLogo from "/public/jaybots_logo.jpg"
 import NEUPic from "/public/neu_logo.jpeg"
 import PlaceholderImage from "@/components/PlaceholderImage"
-import LinkedExperience from "/public/experiences_linked.jpg"
-import LinkedProjects from "/public/projects_linked.jpg"
+import LinkedExperience from "/public/experiences_linked.png"
+import LinkedProjects from "/public/projects_linked.png"
 import LinkedAbout from "/public/aboutme_linked.jpg"
 import Link from "next/link";
 
