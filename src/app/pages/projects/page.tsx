@@ -30,7 +30,7 @@ export default function ProjectsPage() {
                             <br></br>
                             <br></br>
                             <a  className="hover:scale-105 text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-orange-600 dark:hover:bg-orange-700 focus:outline-none dark:focus:ring-orange-800"
-                            href="https://www.justkicks.online/" 
+                            href="https://kicks-application.vercel.app/" 
                             target="_blank" 
                             rel="noopener noreferrer">
                                 Check out the website!
