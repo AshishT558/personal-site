@@ -27,7 +27,7 @@ export default function AboutPage() {
 
                   <h1 className="mt-10 text-3xl lg:text-5xl lg:pt-10 mb-10">About Me</h1>
                   
-                  <p className="w-[23rem] text-center">Hi! I'm Ashish, and I'm a student at Northeastern University in Boston, Massachussetts. 
+                  <p className="w-[23rem] text-center">Hi! I'm Ashish, and I'm a student at Northeastern University in Boston, Massachusetts. 
                     I am studying Computer Science with a concentration in Artificial Intelligence. I'm very interested in technology and understanding the intersection between
                     hardware and software in my projects and coursework. I love learning new things and building on my skills with new technologies.
                     I'm originally from New York, and love biking, playing tennis, and learning new recipes! </p>
